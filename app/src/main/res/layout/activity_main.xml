@@ -45,4 +45,18 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_test2" />
 
+
+    <Button
+        android:id="@+id/btn_test4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="json动画富文本"
+        android:textAllCaps="false"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:onClick="onRich"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_test3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

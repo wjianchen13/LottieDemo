@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
+import com.example.lottiedemo.rich.RichActivity;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -27,6 +29,14 @@ public class MainActivity extends AppCompatActivity {
     // LottieDrawable
     public void onLottieDrawable(View v) {
         startActivity(new Intent(this, LottieDrawableActivity.class));
+    }
+
+    /**
+     * json动画富文本
+     * @param v
+     */
+    public void onRich(View v) {
+        startActivity(new Intent(this, RichActivity.class));
     }
     
 }
