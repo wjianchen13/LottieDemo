@@ -38,5 +38,24 @@ public class MainActivity extends AppCompatActivity {
     public void onRich(View v) {
         startActivity(new Intent(this, RichActivity.class));
     }
-    
+
+
+    /**
+     * json动画富文本，改变文本
+     * @param v
+     */
+    public void onDynamicRich(View v) {
+        startActivity(new Intent(this, DynamicLottieDrawableActivity.class));
+    }
+
+    /**
+     * json动画 替换图片
+     * @param v
+     */
+    public void onBitmap(View v) {
+        startActivity(new Intent(this, UpdateBitmapActivity.class));
+    }
+
+
+
 }

@@ -13,7 +13,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -25,6 +26,8 @@
         <activity android:name=".UrlActivity" />
         <activity android:name=".LottieDrawableActivity" />
         <activity android:name=".rich.RichActivity" />
+        <activity android:name=".DynamicLottieDrawableActivity" />
+        <activity android:name=".UpdateBitmapActivity" />
 
     </application>
 
