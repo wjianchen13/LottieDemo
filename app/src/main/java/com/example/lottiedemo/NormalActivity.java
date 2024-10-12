@@ -29,14 +29,14 @@ public class NormalActivity extends AppCompatActivity {
 //        lavTest.setRepeatCount(LottieDrawable.INFINITE);//设置重复次数
 //        lavTest.playAnimation();
 
-        lavTest.setImageAssetsFolder("assets/");
-        lavTest.setAnimation("333.zip");
-        TextDelegate textDelegate = new TextDelegate(lavTest);
-        lavTest.setTextDelegate(textDelegate);
-        textDelegate.setText("img_0", "替换文字");
-        lavTest.setRepeatMode(LottieDrawable.REVERSE);//设置播放模式
-        lavTest.setRepeatCount(LottieDrawable.INFINITE);//设置重复次数
-        lavTest.playAnimation();
+//        lavTest.setImageAssetsFolder("assets/");
+//        lavTest.setAnimation("333.zip");
+//        TextDelegate textDelegate = new TextDelegate(lavTest);
+//        lavTest.setTextDelegate(textDelegate);
+//        textDelegate.setText("img_0", "替换文字");
+//        lavTest.setRepeatMode(LottieDrawable.REVERSE);//设置播放模式
+//        lavTest.setRepeatCount(LottieDrawable.INFINITE);//设置重复次数
+//        lavTest.playAnimation();
 
 
 //        lavTest.setImageAssetsFolder("assets/");
@@ -54,6 +54,11 @@ public class NormalActivity extends AppCompatActivity {
 //        textDelegate.setText("NAME", "askfjaskjdf");
 //        lavTest.playAnimation();
 
+
+    }
+
+
+    public void onTest1(View v) {
 
     }
     
